@@ -1,4 +1,4 @@
-# ai-platform-pm-playbook
+# AI Platform PM Playbook
 
 A writing-heavy repository on AI platform product-management craft.
 
@@ -30,15 +30,29 @@ Core topics include:
 - technical strategy teams
 - founders building agent products
 
+## Public-safe use rule
+
+Use fictional, generic, or fully sanitized examples.
+
+Do not publish:
+
+- real product roadmaps
+- employer, customer, vendor, or supplier names unless already public and appropriate
+- confidential pricing, contracts, negotiations, or evaluation results
+- private platform architecture or system prompts
+- unreleased feature plans
+- internal decision records or escalation paths
+- personally identifiable information from users, colleagues, or stakeholders
+
 ## Repository layout
 
 ```text
-templates/        # reusable PM templates
-frameworks/       # structured decision and analysis tools
-worked-examples/  # filled examples and annotated outputs
-essays/           # long-form pieces
-glossary/         # shared terms
-reading-lists/    # curated references to study
+templates/        reusable PM templates
+frameworks/       structured decision and analysis tools
+worked-examples/  filled fictional examples and annotated outputs
+essays/           long-form pieces
+glossary/         shared terms
+reading-lists/    curated references to study
 ```
 
 ## Quality bar for maturity
@@ -46,17 +60,33 @@ reading-lists/    # curated references to study
 Before this repo should be considered mature, it should include:
 
 - at least three high-quality reusable templates
-- at least three worked examples with realistic inputs and outputs
+- at least three worked examples with realistic but fictional inputs and outputs
 - a clear navigation README for each top-level folder
 - no essay-only sections presented as operational tooling
 - a clear distinction between evergreen frameworks and opinionated guidance
+- explicit assumptions and limitations for any framework that looks prescriptive
+
+## Suggested public launch path
+
+1. Add one high-quality PRD template for an AI platform or agent product.
+2. Add one fictional worked example using that template.
+3. Add one evaluation-plan template that treats evals as product requirements.
+4. Add one build-vs-buy framework with clear assumptions and caveats.
+5. Add folder-level READMEs so readers know where to start.
 
 ## Relationship to adjacent repos
 
-- `everything-program-management` focuses on broader PM and operating cadences
-- `decision-journal-agent` focuses on decision quality and calibration
-- `job-search-command-center` applies similar operational thinking to a job-search workflow
-- `lean-ai-ops` complements this repo with structured improvement and measurement logic
+- `everything-program-management` focuses on broader PM and operating cadences.
+- `decision-journal-agent` focuses on decision quality and calibration.
+- `lean-ai-ops` complements this repo with structured improvement and measurement logic.
+- `agent-eval` complements this repo with evaluation dimensions and reporting structure.
+- `governance-playbook` complements this repo with AI operating-model design.
+
+## Scope and disclaimer
+
+This repository is shared in a personal capacity. It is not product, legal, procurement, compliance, security, privacy, or investment advice.
+
+The templates and frameworks are practitioner aids. Adapt them to your product context, organization, risk level, stakeholders, and review process before use.
 
 ---
 
