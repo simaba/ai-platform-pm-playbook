@@ -1,23 +1,23 @@
 # AI Platform PM Playbook
 
-A writing-heavy repository on AI platform product-management craft.
+A practitioner playbook for AI platform product management, agent products, evaluation strategy, and platform operating models.
 
-## Status
+## Maturity
 
-**Early framework repo.**
+**Early framework repository.**
 
-This repository is intended to become a strong reference set for AI platform PM work, but it should be treated as a focused playbook-in-progress until more worked examples and reusable templates are added.
+This repository is intended to become a reference set for AI platform PM work. It should currently be treated as a focused playbook in progress until more worked examples, reusable templates, and folder-level guides are added.
 
-## What this repository is for
+## Purpose
 
-This repo is for templates, frameworks, worked examples, and essays on product management for AI platforms and agent systems.
+AI platform PM work often sits between product strategy, infrastructure, evaluation, governance, vendor decisions, and delivery execution. This repository is designed to collect practical frameworks and templates for that operating space.
 
 Core topics include:
 
 - PRDs for agent systems
 - evals as product requirements
 - LLM regression triage
-- build-vs-buy decisions for models and infrastructure
+- build-versus-buy decisions for models and infrastructure
 - vendor evaluation and negotiation for AI platforms
 - governance and operating-model patterns
 - rollout and risk management for AI-enabled features
@@ -30,7 +30,18 @@ Core topics include:
 - technical strategy teams
 - founders building agent products
 
-## Public-safe use rule
+## Repository layout
+
+```text
+templates/        reusable PM templates
+frameworks/       structured decision and analysis tools
+worked-examples/  filled fictional examples and annotated outputs
+essays/           long-form pieces
+glossary/         shared terms
+reading-lists/    curated references to study
+```
+
+## Publication safety
 
 Use fictional, generic, or fully sanitized examples.
 
@@ -44,20 +55,9 @@ Do not publish:
 - internal decision records or escalation paths
 - personally identifiable information from users, colleagues, or stakeholders
 
-## Repository layout
+## Maturity criteria
 
-```text
-templates/        reusable PM templates
-frameworks/       structured decision and analysis tools
-worked-examples/  filled fictional examples and annotated outputs
-essays/           long-form pieces
-glossary/         shared terms
-reading-lists/    curated references to study
-```
-
-## Quality bar for maturity
-
-Before this repo should be considered mature, it should include:
+Before this repository should be considered mature, it should include:
 
 - at least three high-quality reusable templates
 - at least three worked examples with realistic but fictional inputs and outputs
@@ -66,21 +66,21 @@ Before this repo should be considered mature, it should include:
 - a clear distinction between evergreen frameworks and opinionated guidance
 - explicit assumptions and limitations for any framework that looks prescriptive
 
-## Suggested public launch path
+## Public launch roadmap
 
 1. Add one high-quality PRD template for an AI platform or agent product.
 2. Add one fictional worked example using that template.
 3. Add one evaluation-plan template that treats evals as product requirements.
-4. Add one build-vs-buy framework with clear assumptions and caveats.
+4. Add one build-versus-buy framework with clear assumptions and caveats.
 5. Add folder-level READMEs so readers know where to start.
 
-## Relationship to adjacent repos
+## Related repositories
 
 - `everything-program-management` focuses on broader PM and operating cadences.
 - `decision-journal-agent` focuses on decision quality and calibration.
-- `lean-ai-ops` complements this repo with structured improvement and measurement logic.
-- `agent-eval` complements this repo with evaluation dimensions and reporting structure.
-- `governance-playbook` complements this repo with AI operating-model design.
+- `lean-ai-ops` complements this repository with structured improvement and measurement logic.
+- `agent-eval` complements this repository with evaluation dimensions and reporting structure.
+- `governance-playbook` complements this repository with AI operating-model design.
 
 ## Scope and disclaimer
 
